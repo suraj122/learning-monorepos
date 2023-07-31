@@ -4,5 +4,7 @@ export const signupInput = z.object({
     password: z.string()
 })
 
+
+
 export type SignupParams = z.infer<typeof signupInput>;
   
